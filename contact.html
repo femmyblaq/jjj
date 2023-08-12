@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>fashion</title>
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Home - Fashion" />
+  <meta property="og:site_name" content="Fashion" />
+  <meta property="og:description"
+    content="Discover the latest fashion news, runway shows, and designer spotlights that define the industry's ever-evolving landscape. From iconic fashion icons to emerging talents, our website celebrates the individuals who shape the world of fashion and modeling." />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,200&display=swap"
+    rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: "Poppins", sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    .clip-path {
+      clip-path: circle(50% at 50% 50%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="relative bg-transparent bg-gradient-to-r from-slate-600 to-slate-900">
+    <div
+      class="absolute inset-0 bg-[url('https://websitedemos.net/fashion-lifestyle-02/wp-content/uploads/sites/427/2020/01/kara-contactbanner.jpg')] opacity-75 mix-blend-overlay bg-no-repeat bg-cover bg-fixed">
+    </div>
+    <div>
+      <header class="absolute inset-x-0 top-0 z-50">
+        <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+          <div class="flex lg:flex-1">
+            <a href="#" class="-m-1.5 p-1.5">
+              <img width="50" height="50" src="https://img.icons8.com/ios/50/000000/octaedro.png" alt="octaedro" />
+            </a>
+          </div>
+          <div class="flex lg:hidden">
+            <button type="button" id="toggleBar"
+              class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white open">
+              <span class="sr-only">Open main menu</span>
+              <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+            </button>
+          </div>
+          <div class="hidden lg:flex lg:gap-x-12 text-white">
+            <a href="index.html" class="text-sm font-semibold leading-6 text capitalize">home</a>
+            <a href="blog.html" class="text-sm font-semibold leading-6 text capitalize">blog</a>
+            <a href="hacks.html" class="text-sm font-semibold leading-6 text capitalize">hacks</a>
+            <a href="index.html" class="text-sm font-semibold leading-6 text capitalize">videos</a>
+            <a href="#contact" class="text-sm font-semibold leading-6 capitalize">Contact</a>
+          </div>
+        </nav>
+        <!-- Mobile menu, show/hide based on menu open state. -->
+        <div class="hidden mobile-menu" role="dialog" aria-modal="true">
+          <!-- Background backdrop, show/hide based on slide-over state. -->
+          <div class="fixed inset-0 z-50"></div>
+          <div
+            class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+            <div class="flex items-center justify-between">
+              <a href="#" class="-m-1.5 p-1.5">
+                <span class="sr-only">Your Company</span>
+                <img width="40" height="40" src="https://img.icons8.com/ios/50/000000/octaedro.png" alt="octaedro" />
+              </a>
+              <button type="button" id="closeMenu" class="-m-2.5 rounded-md p-2.5 text-gray-700 close">
+                <span class="sr-only">Close menu</span>
+                <svg class="h-6 w-6 " fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                  aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+            <div class="mt-6 flow-root">
+              <div class="-my-6">
+                <div class="space-y-2 py-6">
+                  <a href="index.html"
+                    class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 capitalize">home</a>
+                  <a href="blog.html"
+                    class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 capitalize">blog</a>
+                  <a href="hacks.html"
+                    class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 capitalize">hacks</a>
+                  <a href="index.html"
+                    class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 capitalize">video</a>
+                  <a href="#contact"
+                    class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 capitalize">contact</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="relative isolate px-6 pt-14 lg:px-8">
+        <div class="mx-auto py-48 flex flex-col gap-[30px] text-white">
+          <span class="text-lg font-semibold capitalize">Because Style Matters</span>
+          <h3 class="capitalize text-[2rem] lg:text-[3.5rem] md:text-[3rem]">Let us Help You Find the Perfect Look for
+            Every Occasion.</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="relative h-screen" id="contact">
+    <div class="max-w-screen-xl mx-auto px-6 px-[1rem] pt-14 pb-12 lg:px-8 h-full">
+      <div class="flex justify-center items-center h-full">
+        <form class="flex flex-col gap-[20px] w-full">
+          <div class="flex flex-col lg:flex-row gap-[20px]">
+            <input type="text" placeholder="First Name"
+              class="border-0 border-b border-slate-200 p-[1rem] focus:outline-none focus:ring-0 w-full">
+            <input type="text" placeholder="Last Name"
+              class="border-0 border-b border-slate-200 p-[1rem] focus:outline-none focus:ring-0 w-full">
+          </div>
+          <input type="email" placeholder="Email"
+            class="border-0 border-b border-slate-200 p-[1rem] focus:outline-none focus:ring-0">
+          <textarea name="" id="" cols="10" rows="3" placeholder="Message"
+            class="border-0 border-b border-slate-200 p-[1rem] focus:outline-none focus:ring-0"></textarea>
+          <div>
+            <button
+              class="w-full lg:w-auto md:w-auto uppercase border border-slate-600 py-4 px-8 rounded-[10px] items-center transition tracking-widest ease-in-out gap-[20px] bg-slate-600 text-white">
+              submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer class="max-w-screen-xl mx-auto px-6 px-[1rem] pt-14 pb-12 lg:px-8 border-t-2 border-slate-200">
+    <div class="flex lg:justify-between md:justify-between justify-center items-center">
+      <img width="40" height="40" src="https://img.icons8.com/ios/50/000000/octaedro.png" alt="octaedro"
+        class="hidden lg:block md:block" />
+      <p class="text-xs">Copyright © 2023</p>
+    </div>
+  </footer>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
+  <script>
+    const openNav = document.querySelector(".open")
+    const closeNav = document.querySelector(".close")
+    const mobileWrapper = document.querySelector(".mobile-menu")
+    openNav.addEventListener("click", () => {
+      mobileWrapper.classList.remove("hidden")
+    })
+    closeNav.addEventListener("click", () => {
+      mobileWrapper.classList.add("hidden")
+    })
+  </script>
+</body>
+
+</html>
